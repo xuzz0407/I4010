@@ -1,15 +1,18 @@
-<!DOCTYPE html>
 <?php
     session_start();
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST')
     {
+        // 将输入转换为整数，如果输入为空则默认为0
         $num1 = isset($_POST['num1']) ? (int)$_POST['num1'] : 0;
         $num2 = isset($_POST['num2']) ? (int)$_POST['num2'] : 0;
 
+        // 直接修改 Session 变量
         $_SESSION['NUM1'] = $num1;
         $_SESSION['NUM2'] = $num2;
-        $_SESSION['currloop'] = 1;
+        
+        // 增加 currloop 的递增
+        $_SESSION['currloop'] = isset($_SESSION['currloop']) ? $_SESSION['currloop'] + 1 : 1;
     }
 ?>
 
