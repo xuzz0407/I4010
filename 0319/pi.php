@@ -84,7 +84,31 @@
         height: 3px;
         background-color: #3498db;
     }
-    
+
+    .school-id {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .student-id {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 1.5em;
+        color: #2c3e50;
+    }
+
+    .class-code {
+        background: linear-gradient(135deg, #3498db, #2980b9);
+        color: white;
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
     .result {
         background: white;
         padding: 30px;
@@ -218,6 +242,11 @@
 </head>
 <body>
     <h1>計算 圓周率 (π)</h1>
+    <div class="school-id">
+        <h2 class="student-id">
+            <span class="class-code">I3A07 徐士洧</span>
+        </h2>
+    </div>
 
     <div class="result">
         <div class="pi-container">
