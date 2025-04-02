@@ -109,7 +109,7 @@
     <div class="header">
         <h1 class="project-title">I4010 網頁程式設計與安全實務</h1>
         <div class="project-subtitle"> 20250326</div>
-        <div class="project-id">UI3A07 徐士洧</div>
+        <div class="project-id">I3A07</div>
     </div>
     
     <div class="menu-container">

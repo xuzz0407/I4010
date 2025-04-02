@@ -413,7 +413,7 @@ $todayString = date('Y-n-j'); // Use 'n' and 'j' for no leading zeros
 <body>
 <div class="school-id">
         <h2 class="student-id">
-            <span class="class-code">I3A07 徐士洧</span>
+            <span class="class-code">I3A07</span>
         </h2>
     </div>
     <div class="container-fluid py-4">
