@@ -64,6 +64,10 @@
         .custom-card.card-4 {
             border-top: 5px solid #fd7e14;
         }
+
+        .custom-card.card-5 {
+            border-top: 5px solid #4a6572;
+        }
         
         .card-1 .card-icon {
             color: #0d6efd;
@@ -79,6 +83,10 @@
         
         .card-4 .card-icon {
             color: #fd7e14;
+        }
+
+        .card-5 .card-icon {
+            color: #4a6572;
         }
         
         .course-badge {
@@ -117,7 +125,7 @@
                             <div class="card-date">20250305</div>
                         </div>
                         <div class="card-footer bg-light border-0 text-center">
-                            <small class="text-muted">第一週課程</small>
+                            <small class="text-muted">三月</small>
                         </div>
                     </div>
                 </a>
@@ -133,7 +141,7 @@
                             <div class="card-date">20250312</div>
                         </div>
                         <div class="card-footer bg-light border-0 text-center">
-                            <small class="text-muted">第二週課程</small>
+                            <small class="text-muted">三月</small>
                         </div>
                     </div>
                 </a>
@@ -149,7 +157,7 @@
                             <div class="card-date">20250319</div>
                         </div>
                         <div class="card-footer bg-light border-0 text-center">
-                            <small class="text-muted">第三週課程</small>
+                            <small class="text-muted">三月</small>
                         </div>
                     </div>
                 </a>
@@ -165,7 +173,23 @@
                             <div class="card-date">20250326</div>
                         </div>
                         <div class="card-footer bg-light border-0 text-center">
-                            <small class="text-muted">第四週課程</small>
+                            <small class="text-muted">三月</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <a href="20250402/" class="text-decoration-none">
+                    <div class="card custom-card card-5 shadow-sm h-100">
+                        <div class="card-body text-center py-4">
+                            <div class="card-icon">
+                                <i class="bi bi-calendar-week"></i>
+                            </div>
+                            <div class="card-date">20250402</div>
+                        </div>
+                        <div class="card-footer bg-light border-0 text-center">
+                            <small class="text-muted">四月</small>
                         </div>
                     </div>
                 </a>

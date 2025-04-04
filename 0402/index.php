@@ -5,7 +5,7 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
     <meta http-equiv="pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.6">
-    <title>I4010 網頁程式設計與安全實務： 20250319</title>
+    <title>I4010 網頁程式設計與安全實務： 20250402</title>
     <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
     
@@ -108,13 +108,12 @@
 <body>
     <div class="header">
         <h1 class="project-title">I4010 網頁程式設計與安全實務</h1>
-        <div class="project-subtitle"> 20250326</div>
+        <div class="project-subtitle"> 20250402</div>
         <div class="project-id">I3A07</div>
     </div>
     
     <div class="menu-container">
-        <a href="THschedule.php" class="menu-link">教室授課表</a>
-        <a href="Lunar.php" class="menu-link"> </a>
+        <a href="THschedule.php" class="menu-link">教師授課表</a>
         
     </div>
     
