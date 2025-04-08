@@ -40,7 +40,6 @@
     		transform: translateY(-3px); /* Slight lift effect */
 		}
 
-
         body {
             font-family: "Microsoft JhengHei", Arial, sans-serif;
             line-height: 1.6;
@@ -102,12 +101,15 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.06);
             border-radius: 8px;
             overflow: hidden;
+            table-layout: fixed; /* 使用固定表格布局 */
         }
 
         .schedule-table th, .schedule-table td {
             padding: 14px 10px;
             text-align: center;
             border: 1px solid var(--border-color);
+            height: 70px; /* 設定統一的高度 */
+            vertical-align: middle; /* 垂直置中 */
         }
 
         .schedule-table th {
@@ -117,6 +119,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             font-size: 0.9em;
+            height: 50px; /* 標題行高度可以稍微小一點 */
         }
 
         .day-header {
@@ -244,7 +247,7 @@
             margin-top: 30px;
         }
 
-        /* 新增教室資訊樣式 */
+        /* 教室資訊樣式 */
         .building-info {
             margin-top: 30px;
             border-top: 1px solid var(--border-color);
@@ -265,18 +268,22 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.06);
             border-radius: 8px;
             overflow: hidden;
+            table-layout: fixed; /* 使用固定表格布局 */
         }
 
         .building-table th, .building-table td {
             padding: 10px;
             text-align: center;
             border: 1px solid var(--border-color);
+            height: 50px; /* 設定統一的高度 */
+            vertical-align: middle; /* 垂直置中 */
         }
 
         .building-table th {
             background-color: var(--primary-color);
             color: var(--text-light);
             font-weight: bold;
+            width: 20%; /* 確保表格列寬平均 */
         }
 
         @media (max-width: 768px) {
@@ -306,6 +313,7 @@
             .schedule-table th, .schedule-table td {
                 padding: 8px 5px;
                 font-size: 0.85em;
+                height: 60px; /* 手機上稍微縮小高度 */
             }
             
             h1 {
@@ -324,6 +332,7 @@
             .building-table th, .building-table td {
                 padding: 6px 3px;
                 font-size: 0.8em;
+                height: 40px; /* 手機上稍微縮小高度 */
             }
         }
     </style>
@@ -396,6 +405,7 @@
                 <tr>
                     <td class="time-cell">第三節<span class="time-detail">10:10-11:00</span></td>
                     <td class="empty-cell"></td>
+                    <td class="empty-cell"></td>
                 </tr>
                 
                 <tr>
@@ -405,6 +415,7 @@
                         <div class="class-name"><a href="SbjDetail.php?SbjNo=I4010" target="_blank">資訊安全管理</a></div>
                         <div class="class-location">A8-B209</div>
                     </td>
+                    <td class="empty-cell"></td>
                 </tr>
                 
                 <tr>
@@ -487,7 +498,7 @@
             </tbody>
         </table>
         
-        <!-- 新增教室資訊區塊 -->
+        <!-- 教室資訊區塊 -->
         <div class="building-info">
             <h3>教室資訊</h3>
             <table class="building-table">
@@ -514,10 +525,10 @@
                 </tr>
                 <tr>
                     <td>大樓名稱</td>
-                    <td>商志大樓</td>
+                    <td>尚志大樓</td>
                     <td>德惠大樓</td>
                     <td>新德惠大樓</td>
-                    <td>商品教育館</td>
+                    <td>尚志教育館</td>
                 </tr>
             </table>
         </div>
